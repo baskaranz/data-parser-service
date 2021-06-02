@@ -14,6 +14,27 @@ For example:
 - The lines are ordered by the Date field in ascending order.
 - Sample files can be found here: https://bitbucket.org/ROKT/backend-technical-test
 
+## Requirement
+Please write an application to parse the text files above.
+- Inputs:
+	- Path to the file
+	- From date time
+	- To date time
+- Output: Parsed entries within the date time range inclusively, in JSON format. Example:
+```
+[
+    {
+    	"eventTime": "2001-07-14T17:14:40",
+	"email": "howard@lebsackprosacco.co.uk",
+	"sessionId": "fc5621fa-212b-4750-8606-7dbc21c94f26"
+    },
+    {
+	"eventTime": "2001-07-13T18:38:51",
+	"email": "ahmad_cassin@cummingsdamore.ca",
+	"sessionId": "11d4ef62-b185-4dfb-87da-1dc4a832e2d0"
+    }
+]
+```
 ## Implementation
 ### Language/Framework
 	- Play/Scala
