@@ -7,7 +7,7 @@ Some information about the text file:
 
 - Each line of the text file is an individual record and can be processed independently of the
 other records in the text file.
-- ThesizeofthefilecanrangefromafewKBtoafewGB.
+- The size of the file can range from a few KB to a few GB.
 - Here is the format of each line: `[Date in YYYY-MM-DDThh:mm:ssZ Format][space][Email Address][space][Session Id in GUID format]`
 For example:
 `2020-12-04T11:14:23Z jane.doe@email.com 2f31eb2c-a735-4c91-a122-b3851bc87355`
